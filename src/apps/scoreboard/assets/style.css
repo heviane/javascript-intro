@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+body {
+	background-color: silver;
+    font-size: 0;
+}
+.content{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.placar {
+    width: 450px;
+    height: 116px;
+    background: #2e2e36;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+.metade {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.timeA, .timeB {
+    color: white;
+	box-sizing: border-box;
+    font-size: 15px;
+}
+.score {
+	color: white;
+    box-sizing: border-box;
+    border-top: 1px solid #da0175;
+    border-bottom: 1px solid #da0175;
+	font-size: 0;
+	height: 70px;
+	padding-top: 5px;
+}
+.sets-group {
+	color: white;
+    box-sizing: border-box;
+	font-size: 0px;
+    height: 10px;
+	padding-top: 3px;
+}
+.score-a {
+    border-right: 1px solid #da0175;
+    font-size: 50px;
+}
+.score-b {
+    font-size: 50px;
+}
+.set-a {
+    border-right: 1px solid #da0175;
+    font-size: 20px;
+}
+.set-b {
+    font-size: 20px;
+}
+.pontos {
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
