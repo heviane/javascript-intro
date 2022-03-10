@@ -1,10 +1,8 @@
 # javascript-intro
 
-Introduction to Javascript - Class Contents
+Introduction to Javascript
 
-## Apps
+## Apps in Github Pages
 
-**Here**: add links deploys
-
-- [Counter]()
-- [Scoreboard]()
+- [Counter](https://heviane.github.io/javascript-intro/src/apps/counter/index.html)
+- [Scoreboard](https://heviane.github.io/javascript-intro/src/apps/scoreboard/index.html)
