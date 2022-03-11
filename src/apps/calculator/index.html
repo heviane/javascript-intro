@@ -7,6 +7,15 @@
     <title>calculator</title>
 </head>
 <body>
+    <header>
+        <h1>Javascript class: Calculator</h1>
+        <p>Refresh page to restart</p>
+    </header>
+    
+    <footer>
+        <a href="https://github.com/heviane/javascript-intro/tree/main/src/apps/calculator" target="_blank">Repository on Github</a>
+    </footer>
+
     <script>
         function calculator(){
             // prompt user for input (Works in browser only)
@@ -31,20 +40,22 @@
                     if(isNaN(num2) || num2.length == 0 || !num2.trim()){
                         alert('Invalid second number!');
                     }else{
+                        let result;
+
                         if(operation == 1){
-                            alert(`${num1} + ${num2} = ` + sum(num1, num2));
+                            result = `${num1} + ${num2} = ` + sum(num1, num2);
                         }else if(operation == 2){
-                            alert(`${num1} - ${num2} = ` + subtraction(num1, num2));
+                            result = `${num1} - ${num2} = ` + subtraction(num1, num2);
                         }else if(operation == 3){
-                            alert(`${num1} * ${num2} = ` + multiplication(num1, num2));
+                            result = `${num1} * ${num2} = ` + multiplication(num1, num2);
                         }else if(operation == 4){
-                            alert(`${num1} / ${num2} = ` + division(num1, num2));
+                            result = `${num1} / ${num2} = ` + division(num1, num2);
                         }else{
-                            alert('Invalid operation!');
+                            result = 'Invalid operation!';
                         }
+                        //...opção com switch...case
 
-                        // Substituir por switch...
-
+                        alert(result);
                     }
                 }
                 newOperation();
