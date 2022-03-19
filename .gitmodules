@@ -1,0 +1,3 @@
+[submodule "javascript-intro-tests"]
+	path = javascript-intro-tests
+	url = git@github.com:heviane/javascript-intro-tests.git
