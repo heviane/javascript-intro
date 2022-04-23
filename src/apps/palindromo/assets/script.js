@@ -1,28 +1,27 @@
-// ========== Solution one
-function isPalindromo(string) {
-	if (!string) return;
-    if (!string.length) return;
+function isPalindromo(g) {
+
+	let word = document.getElementById('palindromo').value;
+	console.log(word);
+
+	if (!word || !word.length || !isNaN(word))
+		alert('Enter a word');
 	// string recebida comparada a string invertida
-	console.log(string === string.split('').reverse().join(''));
+	else if (word === word.split('').reverse().join(''))
+		alert('The word is a palindromo');
+	else
+		alert('The word is not a palindromo');
 }
+
+// // ========== Another way to check if it is palindrome
+// 	for (var i = 0; i < string.length / 2; /* até metade da palavra*/ i++) {
+//         console.log(i+': '+string[i]+' !== '+ (string.length - 1 - i)+': '+string[string.length - 1 - i]);
+// 		if (string[i]/*do inicio*/ !== string[string.length - 1 - i]/*do fim*/) {
+// 			return false
+// 		}
+// 	}
+
 // isPalindromo('cat'); // false
 // isPalindromo('asa'); // true
-
-// ========== Solution two
-function isPalindromo2(string) {
-	if (!string) return;
-	if (!string.length) return;
-
-	for (var i = 0; i < string.length / 2; /* até metade da palavra*/ i++) {
-        console.log(i+': '+string[i]+' !== '+ (string.length - 1 - i)+': '+string[string.length - 1 - i]);
-		if (string[i]/*do inicio*/ !== string[string.length - 1 - i]/*do fim*/) {
-			return false
-		}
-	}
-	return true;
-}
-// isPalindromo2('cat'); // false
-// isPalindromo2('asa'); // true
 
 // //============ testing ============
 // var string = 'teste';
