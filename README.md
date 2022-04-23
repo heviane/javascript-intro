@@ -1,5 +1,7 @@
 # Introduction to Javascript 🚀
 
+Apps realizadas durantes as aulas!
+
 ## Apps in Github Pages
 
 - [Counter](https://heviane.github.io/javascript-intro/src/apps/counter/index.html)
@@ -9,11 +11,4 @@
 - [Palíndromo](https://heviane.github.io/javascript-intro/src/apps/palindromo/index.html)
 - [cat API](https://heviane.github.io/javascript-intro/src/apps/palindromo/index.html)
 
-## Extensions and Plugins
-
-- Execução na web.
-  - [Live Server](https://ritwickdey.github.io/vscode-live-server)
-
-- Execução no terminal.
-  - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-  - [Node](https://nodejs.org/en/)
+## References ✅
